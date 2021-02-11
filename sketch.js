@@ -148,7 +148,7 @@ function draw(){ // repetitive - recursive
  // text(score,580,20);
   fill("white");
   text('Score :'+score,500,20)
-//trex.collide(ground2);
+  trex.collide(ground2);
   
   
   drawSprites();
